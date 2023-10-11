@@ -724,9 +724,14 @@ a {
 .mbr-section-btn-main .btn-danger {
   padding: 12px 18px 12px 10px;
 }
+.cid-tSoX23ftXd {
+  z-index: 1000;
+  width: 100%;
+}
 .cid-tSoX23ftXd .navbar-dropdown {
   background-color: #222222 !important;
   padding: 0;
+  position: fixed;
 }
 .cid-tSoX23ftXd .navbar.navbar-expand-lg .dropdown .dropdown-menu {
   background-color: #222222 !important;
@@ -743,8 +748,10 @@ a {
     transition: all 0s ease 0s;
   }
 }
-.cid-tSoX23ftXd .navbar-dropdown {
-  position: relative !important;
+.cid-tSoX23ftXd nav.navbar {
+  position: fixed;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .cid-tSoX23ftXd .icons-menu-main {
   display: flex;
